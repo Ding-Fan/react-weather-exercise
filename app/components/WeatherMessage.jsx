@@ -1,4 +1,6 @@
-var React = require('react');
+// var React = require('react')
+
+import React from 'react';
 
 var WeatherMessage = ({temp, location}) => {
   return (
@@ -6,4 +8,6 @@ var WeatherMessage = ({temp, location}) => {
   );
 };
 
-module.exports = WeatherMessage;
+// module.exports = WeatherMessage;
+
+export default WeatherMessage;
