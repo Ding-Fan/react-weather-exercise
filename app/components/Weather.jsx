@@ -1,7 +1,9 @@
 var React = require('react');
 
 var WeatherForm = require('WeatherForm');
-var WeatherMessage = require('WeatherMessage');
+// var WeatherMessage = require('WeatherMessage');
+import WeatherMessage from 'WeatherMessage';
+
 var openWeatherMap = require('openWeatherMap');
 
 var Weather = React.createClass({
